@@ -27,7 +27,7 @@ public class SolutionTest {
         ListNode num1 = gen("243");
         ListNode num2 = gen("564");
         ListNode listNode = solution.addTwoNumber(num1, num2);
-
+        System.out.println(listNode);
     }
 
     private ListNode gen(String num) {
